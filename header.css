@@ -79,7 +79,8 @@
   left: 1482%; 
   top: 150%;  
 }
-@media (max-width:100%) {
+
+@media (min-width:412px) {
   .header-container{
     width: 380px;
     
@@ -141,7 +142,7 @@
       width: 540px;
       margin: 0;
       background-color: gray;
-      position:;
+      
     }
     .navi1{
       position: relative;
