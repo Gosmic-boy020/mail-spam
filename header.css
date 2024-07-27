@@ -1,0 +1,81 @@
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+}
+.left-scetion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  
+}
+.left-scetion .logo{
+  height: 40px;
+  margin: 0px;
+  width: 40px;
+  margin-right: -17px;
+}
+.brand-name{
+  font-size: 18px;
+  font-family: verdana;
+  font-weight: bold;
+  color: brown;
+  margin: 0px;
+  padding: 20px;
+ 
+}
+.right-section{
+  display: flex;
+  align-items: center;
+  
+  margin-right: 40px;
+  
+}
+.ref-tags{
+  
+  margin-right: 580px;
+  
+}
+.form a button{
+  cursor: pointer;
+  border: 2px solid mediumseagreen;
+  height: 40px;
+  width: 80px;
+  border-radius: 9px;
+  font-size: 14px;
+}
+.navi1,.navi2,.navi3{
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: rgb(53, 53, 53);
+}
+.navi2,.navi3{
+  position: relative;
+  left: 90%;
+}
+.navi3{
+  left: 150%;
+  position: relative;
+}
+.signin-btn{
+  background-color: mediumseagreen;
+  color: white;
+}
+.services-container{
+  z-index: 100;
+  position: relative;
+  left: 1482%; 
+  top: 150%;  
+}
